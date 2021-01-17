@@ -38,6 +38,6 @@ jobs:
       - name: installing surge
         run: npm installing -g surge
       - name: deploying on surge
-        run: surge ./ http://halloabrar.surge.sh/ --token ${{build-token}}
+        run: surge ./ http:/halloabrar.surge.sh/ --token ${{build-token}}
           echo Add other actions to build,
           echo test, and deploy your project.
