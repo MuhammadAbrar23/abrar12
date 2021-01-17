@@ -37,4 +37,4 @@ jobs:
       - name: installing surge
         run: npm installing -g surge
       - name: deploying on surge
-        run: surge ./build http:/halloabrar.surge.sh/--token ${{build-token}}
+        run: surge ./build http:/halloabrar.surge.sh/--token $"2e7a72edb45c815a1a308fec7e96b717"
