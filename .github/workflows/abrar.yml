@@ -35,4 +35,4 @@ jobs:
       - name: install surge
         run: npm install --global surge
       - name: deploying on surge
-        run: surge./http://halloabrar.surge.sh/--token$"2e7a72edb45c815a1a308fec7e96b717"
+        run: surge ./ http://halloabrar.surge.sh/ --token$"2e7a72edb45c815a1a308fec7e96b717"
